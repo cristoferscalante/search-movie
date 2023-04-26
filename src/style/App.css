@@ -1,0 +1,77 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  margin-bottom: 80px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #4175FC;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6a93fb;
+  color: #fbfbfb;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+}
+
+.loading {
+  font-size: 0.7rem;
+  transform: translateY(-50px);
+  width: 100%;
+  text-align: center;
+}
+
+.info {
+  font-size: 0.7rem;
+  transform: translateY(-50px);
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px; /* Opcional: establece un ancho máximo para evitar que se estiren demasiado en pantallas muy grandes */
+  margin: auto; /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 350px;
+}
